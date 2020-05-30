@@ -1,0 +1,68 @@
+#board {
+  background: url('../asset/background-pattern.png');
+  background-size: 160px 140px;
+  border: 1px solid black;
+  width: 480px;
+  height: 320px;
+}
+
+.character {
+  background-color: lightblue;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.counter-wrap {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#btn-start {
+  font-size: 1em;
+  background-color: lightskyblue;
+  width: 50px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#timer, #score {
+  font-size: 1.2em;
+}
+
+.thief {
+  background: url('../asset/thief.jpg');
+  background-size: cover;
+}
+
+.people {
+  background: url('../asset/guest.jpg');
+  background-size: cover;
+}
+
+.thief.active {
+  background: 
+    linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.5)),
+    url('../asset/thief.jpg');
+  background-size: cover;
+}
+
+.people.active {
+  background: 
+    linear-gradient(rgba(0,0,255,0.5), rgba(0,0,255,0.5)),
+    url('../asset/guest.jpg');
+  background-size: cover;
+}
