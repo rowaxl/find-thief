@@ -74,8 +74,6 @@ const renderCharacters = (characterIndexes) => {
         updateScore(THIEF === characterIndexes[index]);
         doOnce = !doOnce;
         character.classList.add('active');
-
-        console.log(character.classList)
       }
     };
   });
